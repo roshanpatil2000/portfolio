@@ -15,7 +15,7 @@ const Contact = () => {
   const emailValidation = () => {
     return String(email)
       .toLocaleLowerCase()
-      .match(/^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/);
+      .match(/^[\w-.]+@([\w-]+\.)+[\w-]{2,4}$/);
   };
   // ========== Email Validation end here ================
 

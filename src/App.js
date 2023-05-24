@@ -1,13 +1,11 @@
 import React from "react";
 import Banner from "./components/banner/Banner";
 import Contact from "./components/contact/Contact";
-import Features from "./components/features/Features";
-import Footer from "./components/footer/Footer";
 import FooterBottom from "./components/footer/FooterBottom";
 import Navbar from "./components/navbar/Navbar";
 import Projects from "./components/projects/Projects";
 import Resume from "./components/resume/Resume";
-import Testimonial from "./components/tesimonial/Testimonial";
+import {Analytics} from "@vercel/analytics/react";
 
 function App() {
   return (
@@ -21,7 +19,8 @@ function App() {
         {/*<Testimonial />*/}
         <Contact />
         {/*<Footer />*/}
-        <FooterBottom />
+          <FooterBottom/>
+          <Analytics/>
       </div>
     </div>
   );
