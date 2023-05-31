@@ -31,13 +31,13 @@ const Education = () => {
           <ResumeCard
             title="H.S.C"
             subTitle="S.D.S.M College(2017 - 2018)"
-            result="47.5%"
+            result="47.5 %"
             // des="Higher education is tertiary education leading to award of an academic degree. Higher education, also called post-secondary education."
           />
           <ResumeCard
             title="S.S.C"
             subTitle="Dr. S. D. Vartak Vidyalaya (2015 - 2016)"
-            result="5.00/5"
+            result="64.0 %"
             // des="Secondary education or post-primary education covers two phases on the International Standard Classification of Education scale."
           />
         </div>
