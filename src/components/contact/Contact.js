@@ -81,7 +81,7 @@ const Contact = () => {
                                         onChange={(e) => setUsername(e.target.value)}
                                         value={username}
                                         name={"username"}
-                                        placeholder={"username"}
+                                        placeholder={"Name"}
                                         className={`${
                                             errMsg === "Username is required!" &&
                                             "outline-designColor"
@@ -96,7 +96,7 @@ const Contact = () => {
                                     <input
                                         onChange={(e) => setPhoneNumber(e.target.value)}
                                         value={phoneNumber}
-                                        // placeholder={"phone number"}
+                                        placeholder={"Phone Number"}
                                         className={`${
                                             errMsg === "Phone number is required!" &&
                                             "outline-designColor"
@@ -107,12 +107,12 @@ const Contact = () => {
                             </div>
                             <div className="flex flex-col gap-4">
                                 <p className="text-sm text-gray-400 uppercase tracking-wide">
-                                    Email
+                                    E-mail
                                 </p>
                                 <input
                                     onChange={(e) => setEmail(e.target.value)}
                                     value={email}
-                                    name={"E mail"}
+                                    name={"E-mail"}
                                     placeholder={"Email"}
                                     className={`${
                                         errMsg === "Please give your Email!" &&
@@ -128,6 +128,7 @@ const Contact = () => {
                                 <input
                                     onChange={(e) => setSubject(e.target.value)}
                                     value={subject}
+                                    placeholder={"Subject"}
                                     className={`${
                                         errMsg === "Plese give your Subject!" &&
                                         "outline-designColor"
@@ -143,7 +144,7 @@ const Contact = () => {
                                     onChange={(e) => setMessage(e.target.value)}
                                     value={message}
                                     name={"message"}
-                                    placeholder={"message"}
+                                    placeholder={"Message"}
                                     className={`${
                                         errMsg === "Message is required!" && "outline-designColor"
                                     } contactTextArea`}
