@@ -28,7 +28,7 @@ const LeftBanner = () => {
           />
         </h2>
         <p className="text-base font-bodyFont leading-6 tracking-wide">
-         As a web developer is to leverage my technical skills and creativity to design and
+            As a web developer is to leverage my technical skills and creativity to design and
             develop innovative and user-friendly web solutions.
             I aim to contribute to the success of organizations by building efficient
             and visually appealing websites that meet clients'
