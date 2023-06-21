@@ -6,6 +6,7 @@ import Navbar from "./components/navbar/Navbar";
 import Projects from "./components/projects/Projects";
 import Resume from "./components/resume/Resume";
 import {Analytics} from "@vercel/analytics/react";
+// import TmpContact from "./components/contact/TmpContact";
 
 function App() {
   return (
@@ -13,15 +14,13 @@ function App() {
         <Navbar />
       <div className="max-w-screen-xl mx-auto">
         <Banner />
-        {/*<Features />*/}
         <Projects />
         <Resume />
-        {/*<Testimonial />*/}
-        <Contact />
-        {/*<Footer />*/}
+        {/*<TmpContact />*/}
+          <Contact />
           <FooterBottom/>
-          <Analytics/>
       </div>
+        <Analytics/>
     </div>
   );
 }
